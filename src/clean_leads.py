@@ -1,15 +1,3 @@
-#!/usr/bin/env python3
-"""
-Clean a messy contact list.
-
-    python clean_leads.py [input.csv] [output.csv]
-
-Default input : leads_test_messy.csv
-Default output: leads_clean.csv
-
-Only the Python standard library is used.
-Rule numbers in the comments (Rule 1 ... Rule 15) refer to task_and_cleaning_rules_EN.txt.
-"""
 
 import csv
 import difflib
